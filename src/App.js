@@ -8,14 +8,13 @@ import Error from "./Error";
 function App() {
   return (
     <Router>
-      <div className="app">
-        <Routes>
-          <Route path="/checkout" element={<Home />} />
-          <Route path="/login" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-      </div>
+      <Header />
+      <Routes>
+        <Route path="/checkout" element={<Home />} />
+        <Route path="/login" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </Router>
   );
 }
