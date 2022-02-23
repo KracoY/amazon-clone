@@ -18,6 +18,8 @@
 .header__optionBasket {
   display: flex;
   align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header__basketcount {
@@ -33,6 +35,8 @@
 .header__option {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .header__optionLineOne {
   font-size: 10px;
