@@ -3,10 +3,10 @@ import "./stylesheets/Header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import { ShoppingBasketRounded} from "@mui/icons-material";
-import {useStateValue} from "./StateProvider"
+import {UseStateValue} from "./StateProvider"
 
 function Header() {
-  const [{basket}, dispatch] = useStateValue();
+  const [{basket}, dispatch] = UseStateValue();
 
   console.log(basket);
 
