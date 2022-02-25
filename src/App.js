@@ -6,6 +6,7 @@ import Home from "./Home";
 import Checkout from './Checkout'
 import Login from "./Login";
 import Error from "./Error";
+import Contact from "./Contact"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
