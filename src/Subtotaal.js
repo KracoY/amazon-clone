@@ -10,16 +10,16 @@ function Subtotaal() {
   return (
     <div className="subtotaal">
       <CurrencyFormat
-        {/*renderText={(value) => (
+        renderText={(value) => (
          <>
           <p>
-            Subtotaal ({basket.length} items): <strong>{Subtotaal}</strong>
+            Subtotaal ({basket.length} items): <strong>{`${value}`}</strong>
           </p>
           <small className="subtotaal__gift">
           <input type="checkbox"/>Deze bestelling bevat een cadeau
           </small>
           </>
-        )} */}
+        )}
         
 
         decimalScale={2}
