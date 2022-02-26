@@ -6,7 +6,7 @@ import Home from "./Home";
 import Checkout from './Checkout'
 import Login from "./Login";
 import Error from "./Error";
-import Contact from "./Contact"
+import Contact from "./mailJS/components/contactForm"
 
 function App() {
   return (

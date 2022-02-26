@@ -1,0 +1,52 @@
+.main {
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.form__naam {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  height: 22px;
+  min-width: 400px;
+}
+
+.form__mail {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  height: 22px;
+  min-width: 400px;
+}
+
+.form__onderwerp {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  height: 22px;
+  min-width: 400px;
+}
+
+.form__bericht {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  min-width: 400px;
+}
+
+.verzend {
+  background: #f0c14b;
+  border: 1px solid;
+  border-radius: 3px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
