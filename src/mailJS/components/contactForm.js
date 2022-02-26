@@ -37,7 +37,7 @@ export default function ContactUs() {
 
   return (
     <div className="container main">
-      <h1>Contactformulier</h1>
+      <h1 className="title">Contactformulier</h1>
       <form onSubmit={sendEmail}>
         <div className="row pt-5 mx-auto">
           <div className="col-8 form-group mx-auto">

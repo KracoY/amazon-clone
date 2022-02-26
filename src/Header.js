@@ -47,9 +47,9 @@ function Header() {
           </div>
         </Link>
 
-        <Link to="/" className="header__link">
+        <Link to="/contact" className="header__link">
           <div className="header__option">
-            <span className="header__optionLineOne">.</span>
+            <span className="header__optionLineOne">Contact</span>
             <span className="header__contact">Contact</span>
           </div>
         </Link>

@@ -3,6 +3,10 @@
   margin-top: 15vh;
 }
 
+.title{
+    
+}
+
 .form__naam {
   border: 1px solid #ced4da;
   border-radius: 3px;
@@ -49,4 +53,6 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  width: 200px;
+  font-weight: 600;
 }
