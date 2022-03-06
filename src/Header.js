@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import { ShoppingBasketRounded } from "@mui/icons-material";
 import { UseStateValue } from "./StateProvider";
+import logo from './logolightGreen.svg'
+
 
 function Header() {
   const [{ basket }, dispatch] = UseStateValue();
@@ -15,7 +17,7 @@ function Header() {
       <Link to="/">
         <img
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src={logo}
           alt="not found"
         />
       </Link>
@@ -43,7 +45,7 @@ function Header() {
         <Link to="/" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Uw</span>
-            <span className="header__optionLineTwo">Prime</span>
+            <span className="header__optionLineTwo">Prime </span>
           </div>
         </Link>
 

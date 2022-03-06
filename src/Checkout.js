@@ -16,7 +16,7 @@ function Checkout() {
       <div checkout_left>
         {basket.length === 0 ? (
           <div>
-            <h2 className="checkout__Title">Je winkelwagen is leeg</h2>
+            <h2 className="checkout__Title">Je Winkelwagen is leeg</h2>
           </div>
         ) : (
           <div>
